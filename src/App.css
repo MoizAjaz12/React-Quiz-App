@@ -1,0 +1,99 @@
+.App {
+  text-align: center !important;
+}
+
+/* Importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    font-family: 'Poppins',sans-serif !important;
+}
+
+body{
+  background-color: #007bff !important;
+  /* text-align: center !important; */
+  /* align-items: center; */
+}
+
+.quiz_box{
+  /* opacity: 0 !important;
+  pointer-events: none !important;
+  transform: translate(-50%, -50%) scale(0.9) !important;   */
+  width: 550px !important;
+  background: #fff !important;
+  border-radius: 5px !important;
+  /* text-align: center !important; */
+  margin-left: 550px !important;
+  margin-top: 150px !important;
+
+}
+
+.quiz_box header{
+  position: relative !important;
+  z-index: 99 !important;
+  height: 70px !important;
+  padding: 0 30px !important;
+  background: #fff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  border-radius: 5px 5px 0 0 !important;
+  box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.1) !important;
+}
+
+.quiz_box header .title{
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: rgb(21, 64, 255);
+
+}
+
+.quiz_box section{
+  padding: 25px !important;
+  background: #fff !important;
+}
+
+.quiz_box section .que_text{
+  font-size: 25px !important;
+  font-weight: 600 !important;
+}
+
+section .option{
+  background: aliceblue !important;
+  border: 1px solid #84c5fe !important;
+  border-radius: 5px !important;
+  padding: 8px 25px !important;
+  margin-bottom: 15px !important;
+  font-size: 17px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+}
+
+section .option:hover{
+  color: #004085 !important;
+  background: #cce5ff !important;
+  border-color: #b8daff !important;
+}
+
+.option:last-child{
+  margin-bottom: 0px !important;
+}
+
+.quiz_box .total_que {
+  height: 60px !important;
+  width: 100% !important;
+  padding: 0 30px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.quiz_box .total_que span{
+  display: flex !important;
+  user-select: none !important;
+}
